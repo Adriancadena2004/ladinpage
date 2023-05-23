@@ -1,0 +1,123 @@
+/* Estilos CSS */
+/* Reemplaza los estilos con tu propio diseño inspirado en Netflix */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  nav ul li {
+    margin-left: 20px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .hero {
+    text-align: center;
+    margin-top: 100px;
+  }
+  
+  .hero h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .btn {
+    display: inline-block;
+    background-color: #e50914;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #c30b0f;
+  }
+  
+  .featured {
+    text-align: center;
+    padding: 40px 0;
+  }
+  
+  .featured h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  
+  .featured-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .card {
+    margin: 0 10px;
+  }
+  
+  .card img {
+    max-width: 200px;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .categories {
+    text-align: center;
+    background-color: #f9f9f9;
+    padding: 40px 0;
+  }
+  
+  .categories h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  
+  .category-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .category {
+    margin: 0 10px;
+  }
+  
+  .category img {
+    max-width: 200px;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  footer {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
